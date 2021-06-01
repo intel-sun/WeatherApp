@@ -1,0 +1,171 @@
+body {
+	background: #00090a;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1{
+    font-size: 1rem;
+    font-weight: 10;
+    margin:1rem 0 2rem;
+    text-align: center;
+    color:rgb(250, 253, 250);
+    font-family: 'Berkshire Swash', cursive;
+}
+h4{
+    font-size: 1rem;
+    font-weight: 10;
+    margin:1rem 0 2rem;
+    text-align: center;
+    color:rgb(0, 255, 0);
+    font-family: 'Berkshire Swash', cursive;
+}
+.change{
+	color: #ffa216
+}
+
+.header{
+    font-weight: 800;
+    color:lime
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #00eea7;
+	background-color: #ffa216;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #9eff01;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background:#51DF70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #ffa216;;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	background: #ff9102 !important;
+	color: #ffffff;
+}
+
+.delete {
+	display: none;
+}
+
+.editBtn{
+    font-size: 1.3rem;
+    margin: 0 0.75rem;
+    font-family:'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color:red;
+    border:none;
+    cursor:pointer;
+}
+
+.input_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_field .input{
+    padding:0.5rem 1rem ;
+    height:50px;
+    outline: none;
+    border:none;
+    background-color: #fff;
+    width:450px;
+    font-size: 1.15rem;
+    margin:0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+    height:50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border:none;
+    background-color:lime;
+    color:#111;
+    margin: 0.5em;
+}
+.addButton:hover{
+    opacity:0.7;
+}
+
